@@ -1,0 +1,30 @@
+.products {
+    padding: 0 0 50px 0;
+}
+
+.products h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.products p {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.products button {
+    width: 150px;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: royalblue;
+    color: white;
+}
+
+.products_list {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    padding: 0 50px;
+}
